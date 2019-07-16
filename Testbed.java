@@ -24,9 +24,7 @@ public class Testbed {
         System.out.println("Student Name "+student.getName());
         System.out.println("Student Roll No "+student.getRollNo());
         System.out.println("Student Class "+student.getClassno());
-        //System.out.println("Student Address"+student.getAddress());
 
-        //Address address = (Address) applicationContext.getBean("address");
         Address address = student.getAddress();
         System.out.println("Student Address:");
         System.out.println("City Name "+address.getCity());

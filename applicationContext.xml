@@ -13,7 +13,8 @@
         <property name="name" value="Shoaib"/>
         <property name="rollNo" value="085"/>
         <property name="classno" value="Second"/>
-        <constructor-arg ref="address"/>
+        <!--<constructor-arg ref="address"/>-->
+        <property name="address" ref="address"/>
     </bean>
 
 </beans>
